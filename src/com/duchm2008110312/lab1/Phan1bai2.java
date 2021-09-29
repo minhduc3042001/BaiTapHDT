@@ -1,7 +1,7 @@
 package com.duchm2008110312.lab1;
 import java.util.Scanner;
 public class Phan1bai2 { 
-          public static void main (String[] args)
+public static void main (String[] args)
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào chiều dài của hình chữ nhật:");

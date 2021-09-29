@@ -1,6 +1,6 @@
 package com.duchm2008110312.lab1;
 import java.util.Scanner;
-public class Phan1bai3 {
+public class Phan2bai3 {
     public static void main (String[] args)
     {
         Scanner scanner = new Scanner(System.in);

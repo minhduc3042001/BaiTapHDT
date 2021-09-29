@@ -13,5 +13,4 @@ public class Phan2bai3 {
         double theTichLapPhuong = dai*rong*cao;
         System.out.println("Thế Tích Khối Lập Phương là:"+theTichLapPhuong);
     }
-    
 }

@@ -21,5 +21,4 @@ NhanVien(String tnv, String tl, String bplv){
     tienLuong = tl;
     boPhanLamViec=bplv;
 }
-
 }

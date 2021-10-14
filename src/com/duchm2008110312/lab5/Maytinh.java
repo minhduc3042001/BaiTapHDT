@@ -23,4 +23,5 @@ public class Maytinh {
             cpu = c;
             ram = r;
         }  
+        
 }

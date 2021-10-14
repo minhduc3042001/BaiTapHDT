@@ -21,4 +21,5 @@ public class MaytinhTestDrive {
         System.out.println("RAM: " + mt3.ram);
         System.out.println();
     }  
+    
 }

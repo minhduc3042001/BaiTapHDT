@@ -18,6 +18,4 @@ public class Address {
         System.out.println("Quốc tịch: " + quocTich);
         System.out.println("Quê quán: "+ queQuan);
     }
-
-    
 }

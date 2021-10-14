@@ -17,5 +17,5 @@ public class XeTestDrive {
         System.out.println("Giấy Phép: " + c.giayPhep);
         System.out.println();
 }
-    
+
 }

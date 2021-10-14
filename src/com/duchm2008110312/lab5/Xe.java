@@ -8,7 +8,7 @@ public class Xe {
     int dungTichXang;
     String xuatXu;
     Xe() {
-        System.out.println("Xe Hayabusa");
+        System.out.println("Xe Exciter");
     }
     Xe(String hSx){
         hangSanXuat=hSx;
@@ -22,4 +22,5 @@ public class Xe {
         dongXe=dX;
         giayPhep=gP;
     }
+    
 }

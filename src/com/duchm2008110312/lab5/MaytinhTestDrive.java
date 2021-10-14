@@ -20,6 +20,5 @@ public class MaytinhTestDrive {
         System.out.println("CPU: " + mt3.cpu);
         System.out.println("RAM: " + mt3.ram);
         System.out.println();
-    }
-    
+    }  
 }

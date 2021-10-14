@@ -22,6 +22,5 @@ public class Maytinh {
             heDieuHanh = hdh;
             cpu = c;
             ram = r;
-        }
-        
+        }  
 }

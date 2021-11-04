@@ -1,18 +1,35 @@
 package com.duchm2008110312.kiemtragiuaki;
 
 public class hocVien extends nguoi{
-    String ten,diem;
-        float diemMonHoc1,diemMonHoc2,diemtrungbinh2mon;
-        final String dong="-----------------------------------------------------";
-        System.out.println("diem cua hoc vien");
-        System.out.println(dong);
-        Scanner nhap=new Scanner(System.in);
-        System.out.println("Nhap ho ten hoc vien: ");
-        ten = nhap.nextLine();
-        System.out.println("Diem Mon Hoc 1: ");
-        diemMonHoc1 = nhap.nextFloat();
-        System.out.println("Diem Mon Hoc 2: ");
-        diemMonHoc2 = nhap.nextFloat();
-        System.out.println("Diem trung binh:");
-        diemtrungbinh2mon = (diemMonHoc1+diemMonHoc2)/2;
+    private float diemMonHoc1, diemMonHoc2;
+    private static int soLuongHV;
+    protected void setDiemMH1(float a){
+        if(0 <= a && a <= 10){
+            diemMonHoc1 = a;
+        }
+        else 
+            System.out.println("Điểm không hợp lệ");
+    }
+    protected float getDiemMH1(){
+        return diemMonHoc1;
+    }
+    protected void setDiemMH2(float b){
+        if(0 <= b && b <= 10){
+            diemMonHoc2 = b;
+        }
+        else 
+            System.out.println("Điểm không hợp lệ");
+    }
+    protected float getDiemMH2(){
+        return diemMonHoc2;
+    }
+    protected float diemTB(){
+        return (diemMonHoc1 + diemMonHoc2)/2;
+    }
+    @Override
+    public String toString() {
+        String s;
+        s = "Điểm môn học 1: "+getDiemMH1()+"Điểm môn học 2: "+getDiemMH2()+"Điểm trung bình: "+diemTB();
+        return s;
+    }
 }
